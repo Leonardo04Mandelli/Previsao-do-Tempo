@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <header>
+        <img class="img-time-icon" src="./assets/Icone-PDT.png" alt="icone-tempo">
+        <h1 class="tittle-main">Previsão do Tempo</h1>
+    </header>
+    <main>
+        <div class="container-main">
+            <input id="input" class="input" placeholder="Digite o nome da cidade">
+            <button class="button-search" onclick="clickedButton()">
+                <img class="img-search" src="./assets/lupa.png" alt="icone-lupa">
+            </button>
+
+            <div class="container-regular">
+                <h2 id="tittle_city" class="tittle-city">Digite uma cidade acima</h2>
+
+                <p id="temperature" class="temperature"></p>
+
+                <div class="container-small">
+                    <img class="img-time" alt="icone-previsao-tempo" src="https://openweathermap.org/img/wn/02d.png">
+                    <p id="climate" class="climate">Nublado</p>
+                </div>
+
+                <p class="humidity"></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="p-credits">Créditos - flaticon.com (Icones)</p>
+        <div class="text-links">
+            <a class="links" href="https://www.flaticon.com/br/icones-gratis/nuvem" title="nuvem ícones">Nuvem ícones
+                criados por zafdesign - Flaticon</a>
+            <a class="links" href="https://www.flaticon.com/free-icons/sun" title="sun icons">Sol ícones criados por
+                Freepik - Flaticon</a>
+            <a class="links" href="https://www.flaticon.com/free-icons/few" title="few icons">Poucas nuvens criado por
+                Picons - Flaticon</a>
+            <a class="links" href="https://www.flaticon.com/br/icones-gratis/lupa" title="lupa ícones">Lupa ícones
+                criados por Ayub Irawan - Flaticon</a>
+        </div>
+    </footer>
+</body>
+
+</html>
